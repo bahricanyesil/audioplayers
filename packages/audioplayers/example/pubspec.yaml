@@ -3,7 +3,8 @@ description: Demonstrates how to use the audioplayers plugin.
 publish_to: none
 
 dependencies:
-  audioplayers: ^4.0.1
+  audioplayers:
+    path: ../
   collection: ^1.16.0
   file_picker: ^5.0.1
   flutter:
@@ -13,9 +14,6 @@ dependencies:
   provider: ^6.0.5
 
 dev_dependencies:
-  # Integration tests for audioplayers_platform_interface are handled 
-  # in this package to avoid maintaining multiple example apps:
-  audioplayers_platform_interface: ^5.0.0
   flame_lint: ^0.2.0
   flutter_test:
     sdk: flutter
