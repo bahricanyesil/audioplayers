@@ -21,12 +21,18 @@ flutter:
         default_package: audioplayers_windows
 
 dependencies:
-  audioplayers_android: ^3.0.1
-  audioplayers_darwin: ^4.0.1
-  audioplayers_linux: ^2.0.1
-  audioplayers_platform_interface: ^5.0.0
-  audioplayers_web: ^3.0.1
-  audioplayers_windows: ^2.0.1
+  audioplayers_android:
+    path: ../audioplayers_android
+  audioplayers_darwin:
+    path: ../audioplayers_darwin
+  audioplayers_linux:
+    path: ../audioplayers_linux
+  audioplayers_platform_interface:
+    path: ../audioplayers_platform_interface
+  audioplayers_web:
+    path: ../audioplayers_web
+  audioplayers_windows:
+    path: ../audioplayers_windows
   file: ^6.1.0
   flutter:
     sdk: flutter
